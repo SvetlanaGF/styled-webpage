@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стилизованная веб-страница</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Добро пожаловать на страницу, написанную с примененим css </h1>
+    </header>
+
+    <nav class="nav">
+        <ul>
+            <li><a href="#" class="nav__link">Главная</a></li>
+            <li><a href="#" class="nav__link">Обо всем</a></li>
+            <li><a href="#contact" class="nav__link">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <main class="content">
+        <section class="content__section">
+            <h2>Знакомство</h2>
+            <p>Это простая веб-страница, оформленная с помощью CSS.</p>
+        </section>
+
+        <section class="palette__section">
+            <h2>Цветовая гамма страницы</h2>
+            <p>На этой странице использованы цвета весеней природы</p>
+            <h3>Фотография для вдохновения</h3>
+            <img
+                src="img/foto.jpg"
+                alt="Весенняя природа"
+                width="30%"
+            />
+            <br>
+            <h3>Палитра, созданная по мотивам фотографии</h3>
+            <img
+                src="img/gamma.jpg"
+                alt="Весенняя палитра"
+                width="30%"
+            />
+       </section>
+        
+        <section class="content__contact" id="contact">
+            <h2>На указанный ниже e-mail<br>можно отправить свой отзыв о странице:</h2>
+            <p>info@example.com</p>
+        </section>
+    </main>
+
+<footer class="footer">
+    <p>© 2024 My Styled Webpage</p>
+    <p><a href="#top" class="footer__link">Наверх</a></p>
+</footer>
+
+</body>
+</html>
